@@ -8,10 +8,10 @@
 # Finally, files that were not handled by those two methods, I used voice-to-text technology to recreate rather than attempt to teach
 # the computer to process everyone's handwriting individually.
 
-#import shutil
-#import os
-#import os.path
-#import subprocess
+import shutil
+import os
+import os.path
+import subprocess
 
 os.chdir("/shooterdatalists/")
 # pull two-column table out of the saved-asfiles.txt. col "do" is OCR and/or H and/or * ; col "name" is the corr. file
