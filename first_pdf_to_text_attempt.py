@@ -8,6 +8,8 @@ from pdfminer.pdfpage import PDFPage
 import os
 import sys, getopt
 
+# closely following 2 functions from: https://github.com/shakkaist/Python/blob/master/Day2Session2/pdfconverter.py
+
 def convert(fname, pages=None):
     if not pages:
         pagenums = set()
