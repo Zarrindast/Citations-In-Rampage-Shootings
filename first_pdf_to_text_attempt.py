@@ -56,8 +56,8 @@ except OSError:
 bogus_List = list()
 
 ###### CAUTION: THIS IS VERY SLOW, DON'T RUN IT IF YOU DON'T NEED TO
-# make something to prevent double-doing
-x=0
+# finish preventions for redundant conversion.
+x = 0
 while x < len(fileslist):
     print names_Docs_Grouped[x][0]
     try:
