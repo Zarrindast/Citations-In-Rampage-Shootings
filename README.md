@@ -15,3 +15,21 @@ False positive citations are manually fished out
 The graph is created and visualized.
 
 After that initial model is up, I'll try to flesh out all of the metions that aren't of shooters already on the list (with the possible exception of Adam Lanza's comprehensive spreadsheet, at least for now).
+
+
+ORDER OF EVENTS
+	scraping_Langman.py (creates shooterpages.txt)
+    dependencies: pkgs listed internally
+	
+first_pdf_to_text_attempt.py
+    dependencies: pkgs listed internally, scraping_Langman.py
+
+tesseracting_whatsleft.py
+    dependencies: pkgs listed internally, scrapinglangman.py, first_pdf_to_text_attempt.py, multipage_ocr.py
+
+fearfully_retconning_processing_table.py (creates file_processing_table.csv)
+    dependencies: pkgs listed internally, scrapinglangman.py, first_pdf_to_text_attempt.py, multipage_ocr.py,           tesseracting_whatsleft.py
+
+
+ 	Add files via upload 	5 days ago
+	
