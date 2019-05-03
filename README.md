@@ -17,8 +17,9 @@ The graph is created and visualized.
 After that initial model is up, I'll try to flesh out all of the metions that aren't of shooters already on the list (with the possible exception of Adam Lanza's comprehensive spreadsheet, at least for now).
 
 
-ORDER OF EVENTS
-	scraping_Langman.py (creates shooterpages.txt)
+#ORDER OF EVENTS
+
+scraping_Langman.py (creates shooterpages.txt)
     dependencies: pkgs listed internally
 	
 first_pdf_to_text_attempt.py
