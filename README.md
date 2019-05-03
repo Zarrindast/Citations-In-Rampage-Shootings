@@ -41,4 +41,4 @@ fearfully_retconning_processing_table.py (creates file_processing_table.csv)
 
 prepping_filenames.py
 
-	dependencies: pkgs listed internally, scrapinglangman.py, first_pdf_to_text_attempt.py, multipage_ocr.py,           tesseracting_whatsleft.py, fearfully_retconning_processing_table.py
+	dependencies: pkgs listed internally, scrapinglangman.py, first_pdf_to_text_attempt.py, multipage_ocr.py, tesseracting_whatsleft.py, fearfully_retconning_processing_table.py
