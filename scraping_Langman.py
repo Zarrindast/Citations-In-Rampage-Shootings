@@ -1,3 +1,5 @@
+# TO DO: figure out the iteration problem in the downloads below. process the names to remove the - and 0 early on.
+
 import os
 import pandas as pd
 import numpy as np
@@ -147,5 +149,6 @@ while x < len(names_Docs_Grouped):
             if not os.path.exists("{}/{}".format(names_Docs_Grouped[x][0],str(names_Docs_Grouped[x][y][cutoff:]))):
                 # then download it
                 download(names_Docs_Grouped[x][y], "{}/{}".format(names_Docs_Grouped[x][0],str(names_Docs_Grouped[x][y][cutoff:])))
+# WHY is this only running with the y = y + 1 indented two indents too far?!
         y = y + 1
     x = x + 1
