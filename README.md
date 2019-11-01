@@ -49,4 +49,8 @@ searchable_names.py
 
 citation_extraction.py
 	
-	dependencies: codecs, searchable_names.py, scrapinglangman.py, first_pdf_to_text_attempt.py, multipage_ocr.py, tesseracting_whatsleft.py, fearfully_retconning_processing_table.py
+	dependencies: codecs, [pending]
+
+network_visualization.py
+
+	dependencies: [pending]
