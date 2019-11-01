@@ -21,30 +21,32 @@ After that initial model is up, I'll try to flesh out all of the metions that ar
 
 scraping_Langman.py (creates shooterpages.txt)
 
-    dependencies: pkgs listed internally
+   dependencies: pkgs listed internally
 
 	
 first_pdf_to_text_attempt.py
 
-    dependencies: pkgs listed internally, scraping_Langman.py
+   dependencies: pkgs listed internally, scraping_Langman.py
 
 
 tesseracting_whatsleft.py
 
-    dependencies: pkgs listed internally, scrapinglangman.py, first_pdf_to_text_attempt.py, multipage_ocr.py
+   dependencies: pkgs listed internally, scrapinglangman.py, first_pdf_to_text_attempt.py, multipage_ocr.py
 
 
 fearfully_retconning_processing_table.py (creates file_processing_table.csv)
 
-    dependencies: pkgs listed internally, scrapinglangman.py, first_pdf_to_text_attempt.py, multipage_ocr.py,           tesseracting_whatsleft.py
+   dependencies: pkgs listed internally, scrapinglangman.py, first_pdf_to_text_attempt.py, multipage_ocr.py,           tesseracting_whatsleft.py
 
 
 prepping_filenames.py
 
-	dependencies: pkgs listed internally, scrapinglangman.py, first_pdf_to_text_attempt.py, multipage_ocr.py, tesseracting_whatsleft.py, fearfully_retconning_processing_table.py
+   dependencies: pkgs listed internally, scrapinglangman.py, first_pdf_to_text_attempt.py, multipage_ocr.py, tesseracting_whatsleft.py, fearfully_retconning_processing_table.py
 
 searchable_names.py
 
-	dependencies:
+   dependencies: [pending] 
 
-
+citation_extraction.py
+	
+   dependencies: codecs, searchable_names.py, scrapinglangman.py, first_pdf_to_text_attempt.py, multipage_ocr.py, tesseracting_whatsleft.py, fearfully_retconning_processing_table.py
