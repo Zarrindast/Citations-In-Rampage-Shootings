@@ -1,6 +1,6 @@
 # Citations In Rampage Shootings
 
-This project identifies citation networks within rampage shooting incidents. 
+This project identifies citation networks within rampage shooting (update: expanded to rampage *killing*) incidents. 
 
 In the end, we produce a directed acyclic graph. Each node is: one shooter together with all of their associated documents, which include manifestos, transcriptions of videos, spreadsheets kept by shooters, police documentation of possessions, etc (being careful to exclude mentions of other incidents that are NOT originating from the shooter themself and do NOT concretely indicate that that shooter was exposed to the previous incident). Each edge is a mention/citation.
 
